@@ -5,8 +5,7 @@ const output = document.querySelector("#name-output"),
 input.addEventListener('input', () => {
     let user = input.value.trim();
     if (user === "") {
-        user = "Anonymus";
-    } else {
-        output.textContent = user;
+        user = "Anonymous";
     }
+    output.textContent = user;
 })
